@@ -1,0 +1,32 @@
+
+public class Sample1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		 String s = "www.gaagle.com";
+		 String a[]=s.split(".");
+		 for(int i=0;i<a.length;++i) {
+			 
+			 
+		}
+		
+		
+		int[] arr = {200,150,350,100,50};
+		
+		
+		int largest=0;
+		
+		for(int i=0;i<arr.length;++i)
+		{
+			if(arr[i]>largest)
+			{
+				largest=arr[i];
+			}
+		}
+		System.out.println(largest);
+		
+	}
+
+}

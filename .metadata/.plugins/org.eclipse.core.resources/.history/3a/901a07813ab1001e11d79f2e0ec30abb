@@ -1,0 +1,20 @@
+
+public class Sample1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String s = "www.gaagle.com";
+
+		String a[]=s.split(".");
+		
+		for(int i=0;i<a.length;++i)
+		{
+			
+		}
+		
+		
+	}
+
+}
