@@ -36,3 +36,9 @@ public class Sample2 {
 	}
 
 }
+
+
+
+TakesScreenshot ts=(TakesScreenshot) d;
+ts.getScreenshotAs(Output.file);
+FileUtils.copyFile(ts,".png");
